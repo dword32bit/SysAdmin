@@ -10,3 +10,4 @@ Membuat Server dengan service Berikut
 
 # Operating System
 Ubuntu 23.04
+https://releases.ubuntu.com/lunar/ubuntu-23.04-desktop-amd64.iso
