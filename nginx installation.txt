@@ -1,0 +1,33 @@
+Cara Installasi NginX pada Ubuntu 23.04
+
+update repo ubuntu terlebih dahulu
+
+$ sudo apt update
+
+$ sudo apt install nginx
+
+lihat pada firewall app
+$ sudo ufw app list
+
+Output : 
+  Available applications:
+    CUPS
+    Nginx Full
+    Nginx HTTP
+    Nginx HTTPS
+    OpenSSH
+  and@and-VirtualBox:~$
+
+izinkan nginx mengakses firewall
+$ sudo ufw allow 'Nginx HTTP'
+
+coba nginx dengan cara memasukan ip ubuntu ke browser
+hasilnya akan seperti ini :
+
+                                              Welcome to nginx!
+If you see this page, the nginx web server is successfully installed and working. Further configuration is required.
+
+For online documentation and support please refer to nginx.org.
+Commercial support is available at nginx.com.
+
+                                          Thank you for using nginx.
