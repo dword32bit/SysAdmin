@@ -1,12 +1,15 @@
 # SysAdmin
-How to be come sysadmin
 
-Membuat Server dengan service Berikut
+Nama  : Danang Tri Atmaja
+NIM   : 22.83.0826
+
+## Membuat Server dengan service Berikut
 - Nginx
 - SSH
 - Storage
 - Monitoring Service
 
-# Operating System
-Ubuntu 23.04
-https://releases.ubuntu.com/lunar/ubuntu-23.04-desktop-amd64.iso
+## Operating System
+Ubuntu Server 20.04
+https://releases.ubuntu.com/focal/ubuntu-20.04.6-live-server-amd64.iso
+
