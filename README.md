@@ -5,7 +5,7 @@ Nama  : Danang Tri Atmaja
 NIM   : 22.83.0826
 
 ## Membuat Server dengan service Berikut
-- Nginx
+- WebServer (NginX)
 - SSH (cockpit)
 - Storage server (NextCloud)
 - Monitoring Service
@@ -38,3 +38,12 @@ contoh
 > ssh and@192.168.1.4
 
 karena menggunakan konfigurasi default, maka port ssh adalah 22
+
+## Install cockpit
+```bash
+# Installasi 
+sudo apt install cockpit
+
+# izinkan port 9090 untuk melewati firewall
+sudo ufw allow 9090/tcp
+```
