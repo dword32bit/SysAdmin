@@ -57,3 +57,47 @@ sudo apt install nginx
 sudo systemctl status nginx
 ```
 ![image](https://github.com/dword32bit/SysAdmin/assets/114817148/4640fe36-9040-4bf5-ad76-410252ad6855)
+
+### Install Certbot
+certbot adalah sebuah aplikasi linux untuk mendapatkan sertifikat let's encrypt dengan cepat
+
+berikut cara installasi nya
+```bash
+sudo apt install certbot python3-certbot-nginx
+certbot --version
+```
+### Konfigurasi NginX
+untuk melakukan konfigurasi menggunakan nano
+```bash
+sudo nano /etc/nginx/sites-available/your-domain.com.conf
+```
+```bash
+server {
+        listen 80;
+
+        root /var/www/html;
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name danangtri.my.id www.danangtri.my.id;
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+
+        error_log /var/log/nginx/danangtri.my.id.error;
+        access_log /var/log/nginx/danangtri.my.id.access;
+
+}
+```
+simpan konfigurasi dan jalankan konfigurasi tersebut
+```bash
+sudo ln -s /etc/nginx/sites-available/your-domain.com.conf /etc/nginx/sites-enabled/danangtri.my.id.conf
+
+#Verifikasi konfigurasi nginx
+sudo nginx -t
+
+#jika muncul test is successful berarti tidak ada kendala dalam konfigurasi nginx
+
+#restart nginx
+sudo systemctl restart nginx
+```
