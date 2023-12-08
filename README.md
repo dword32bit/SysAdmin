@@ -11,10 +11,10 @@ NIM   : 22.83.0826
 - Monitoring Service
 
 ## Operating System
-Ubuntu Server 20.04
+Ubuntu Server 22.04
 https://releases.ubuntu.com/focal/ubuntu-20.04.6-live-server-amd64.iso
 
-## Install SSH di Ubuntu 20.04
+## Install SSH di Ubuntu 22.04
 ```bash
 
 sudo apt-get update
@@ -35,7 +35,7 @@ menggunakan command :
 > ssh user@ip_address
 contoh
 
-> ssh and@192.168.1.4
+> ssh and@103.82.92.91
 
 karena menggunakan konfigurasi default, maka port ssh adalah 22
 
