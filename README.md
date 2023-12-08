@@ -5,10 +5,9 @@ Nama  : Danang Tri Atmaja
 NIM   : 22.83.0826
 
 ## Membuat Server dengan service Berikut
-- WebServer (NginX)
-- SSH (cockpit)
-- Storage server (NextCloud)
-- Monitoring Service
+- WebServer (NginX) + SSL + Domain
+- SSH
+- Monitoring Service (cockpit)
 
 ## Operating System
 Ubuntu Server 22.04
@@ -47,3 +46,16 @@ sudo apt install cockpit
 # izinkan port 9090 untuk melewati firewall
 sudo ufw allow 9090/tcp
 ```
+## Install NginX + SSL (Let's Encrypt)
+![download](https://github.com/dword32bit/SysAdmin/assets/114817148/e3318239-a3a4-449d-bd86-79edc65c4b7f)
+Saya menggunakan NginX untuk mengelola Web saya
+
+```bash
+#Installasi NginX
+sudo apt install nginx
+
+#Periksa status NginX
+sudo systemctl status nginx
+![image](https://github.com/dword32bit/SysAdmin/assets/114817148/4640fe36-9040-4bf5-ad76-410252ad6855)
+```
+
