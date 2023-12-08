@@ -11,7 +11,6 @@ NIM   : 22.83.0826
 
 ## Operating System
 Ubuntu Server 22.04
-https://releases.ubuntu.com/focal/ubuntu-20.04.6-live-server-amd64.iso
 
 ## Install SSH di Ubuntu 22.04
 ```bash
