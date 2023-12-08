@@ -56,6 +56,5 @@ sudo apt install nginx
 
 #Periksa status NginX
 sudo systemctl status nginx
-![image](https://github.com/dword32bit/SysAdmin/assets/114817148/4640fe36-9040-4bf5-ad76-410252ad6855)
 ```
-
+![image](https://github.com/dword32bit/SysAdmin/assets/114817148/4640fe36-9040-4bf5-ad76-410252ad6855)
