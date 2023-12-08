@@ -69,7 +69,7 @@ certbot --version
 ### Konfigurasi NginX
 untuk melakukan konfigurasi menggunakan nano
 ```bash
-sudo nano /etc/nginx/sites-available/your-domain.com.conf
+sudo nano /etc/nginx/sites-available/danangtri.my.id.conf
 ```
 ```bash
 server {
@@ -91,7 +91,7 @@ server {
 ```
 simpan konfigurasi dan jalankan konfigurasi tersebut
 ```bash
-sudo ln -s /etc/nginx/sites-available/your-domain.com.conf /etc/nginx/sites-enabled/danangtri.my.id.conf
+sudo ln -s /etc/nginx/sites-available/danangtri.my.id.conf /etc/nginx/sites-enabled/danangtri.my.id.conf
 
 #Verifikasi konfigurasi nginx
 sudo nginx -t
