@@ -7,7 +7,7 @@ NIM   : 22.83.0826
 ## Membuat Server dengan service Berikut
 - WebServer (NginX) + SSL + Domain
 - SSH
-- Monitoring Service (cockpit)
+- Monitoring + Console Service (cockpit)
 
 ## Operating System
 Ubuntu Server 22.04
